@@ -4,7 +4,7 @@ import { Text, View } from "react-native"
 const HomeScreen = () => {
     return (
         <View style={defaultStyles.container}>
-            <Text style={defaultStyles.text}>Home</Text>
+            {/* <Text style={defaultStyles.text}>Home</Text> */}
         </View>
     )
 }

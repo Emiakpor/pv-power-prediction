@@ -4,19 +4,19 @@ import { defaultStyles } from "@/styles"
 import { Stack } from "expo-router"
 import { View } from "react-native"
 
-const InputScreenLayout = () => {
+const PredictScreenLayout = () => {
     return (
         <View style={defaultStyles.container}>
             <Stack>
-                <Stack.Screen                 
-                    name="index" 
-                    options={{
-                        ...StackScreenWithSearchBar,
-                        headerTitle: "PV Panel Details",
-                    }}/>
+                <Stack.Screen 
+                   name="Prediction" 
+                   options={{
+                   ...StackScreenWithSearchBar,
+                    headerTitle: "Prediction",
+                }}/>
             </Stack>
         </View>
     )
 }
 
-export default InputScreenLayout
+export default PredictScreenLayout

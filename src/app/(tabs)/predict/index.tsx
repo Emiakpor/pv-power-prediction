@@ -1,12 +1,12 @@
 import { defaultStyles } from "@/styles"
 import { Text, View } from "react-native"
 
-const AboutScreen = () => {
+const PredictionScreen = () => {
     return (
         <View style={defaultStyles.container}>
-            {/* <Text style={defaultStyles.text}>About</Text> */}
+            {/* <Text style={defaultStyles.text}>Home</Text> */}
         </View>
     )
 }
 
-export default AboutScreen;
+export default PredictionScreen

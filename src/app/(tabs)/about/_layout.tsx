@@ -1,4 +1,5 @@
 import { StackScreenWithSearchBar } from "@/constants/_layout"
+import { colors } from "@/constants/tokens"
 import { defaultStyles } from "@/styles"
 import { Stack } from "expo-router"
 import { View } from "react-native"
@@ -10,7 +11,7 @@ const AboutScreenLayout = () => {
                 <Stack.Screen 
                     name="index" options={{
                     ...StackScreenWithSearchBar,
-                    headerTitle: "About"
+                    headerTitle: "About",
                 }}/>
             </Stack>
         </View>
