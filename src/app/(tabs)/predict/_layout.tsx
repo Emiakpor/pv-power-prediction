@@ -9,7 +9,7 @@ const PredictScreenLayout = () => {
         <View style={defaultStyles.container}>
             <Stack>
                 <Stack.Screen 
-                   name="Prediction" 
+                   name="index" 
                    options={{
                    ...StackScreenWithSearchBar,
                     headerTitle: "Prediction",

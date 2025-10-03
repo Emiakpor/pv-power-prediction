@@ -4,18 +4,15 @@ import { defaultStyles } from "@/styles"
 import { Stack } from "expo-router"
 import { View } from "react-native"
 
-const AboutScreenLayout = () => {
+const HeaderLayout = () => {
     return (
         <View style={defaultStyles.container}>
             <Stack>
-                <Stack.Screen 
-                    name="index" options={{
-                    ...StackScreenWithSearchBar,
-                    headerTitle: "",
-                }}/>
+                <Stack.Screen             
+                    name="index" />
             </Stack>
         </View>
     )
 }
 
-export default AboutScreenLayout
+export default HeaderLayout

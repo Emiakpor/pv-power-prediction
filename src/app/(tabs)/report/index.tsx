@@ -1,15 +1,14 @@
 import { defaultStyles } from "@/styles"
 import { Text, View } from "react-native"
 
-import PredictedChartPage from "@/components/Chart/ChartView"
+import ReportView from "@/components/Report/ReportView";
 
-
-const PredictionScreen = () => {
+const AnalyticScreen = () => {
     return (
         <View style={defaultStyles.container}>
-            <PredictedChartPage/>
+            <ReportView/>
         </View>
     )
 }
 
-export default PredictionScreen
+export default AnalyticScreen;

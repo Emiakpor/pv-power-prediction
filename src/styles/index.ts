@@ -45,7 +45,7 @@ export const utilsStyles = StyleSheet.create({
 		backgroundColor: colors.background,
 		padding: 16,
 		marginTop: 70,
-		marginBottom: 0
+		marginBottom: 10,
 	  },
 	  header: {
 		fontSize: 40,
@@ -118,5 +118,11 @@ export const utilsStyles = StyleSheet.create({
 	  },
 	  marginTop20: {
 		marginTop: 20
+	  },
+	  predict: {
+		marginTop: 5, 
+		fontSize: 18,
+		justifyContent: 'center',
+		alignItems: 'center',
 	  }
 })

@@ -1,10 +1,14 @@
-import { defaultStyles } from "@/styles"
-import { Text, View } from "react-native"
+import { defaultStyles } from "@/styles/"
+import React from "react";
+import {
+  View,
+} from "react-native";
+import HomeView from "@/components/Home/HomeView"
 
 const HomeScreen = () => {
     return (
         <View style={defaultStyles.container}>
-            {/* <Text style={defaultStyles.text}>Home</Text> */}
+            <HomeView/>
         </View>
     )
 }

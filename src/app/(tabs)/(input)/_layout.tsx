@@ -12,7 +12,7 @@ const InputScreenLayout = () => {
                     name="index" 
                     options={{
                         ...StackScreenWithSearchBar,
-                        headerTitle: "PV Panel Details",
+                        headerTitle: "",
                     }}/>
             </Stack>
         </View>

@@ -12,7 +12,7 @@ const HomeScreenLayout = () => {
                    name="index" 
                    options={{
                    ...StackScreenWithSearchBar,
-                    headerTitle: "Home",
+                    headerTitle: "",
                 }}/>
             </Stack>
         </View>

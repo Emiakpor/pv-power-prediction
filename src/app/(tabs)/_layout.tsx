@@ -21,7 +21,7 @@ const TabsNavigation = () => {
                 borderTopWidth: 0,
                 paddingTop: 0,
             },
-            animation: "shift",
+            animation: "fade"
             //tabBarBackground: BlurTabBarBackground,
             // tabBarPosition: "right",
             // tabBarVariant: "material",
@@ -32,6 +32,7 @@ const TabsNavigation = () => {
             //     borderTopLeftRadius: 20,
             //     borderTopRightRadius: 20,
             // }}/>
+            
         }}>
             <Tabs.Screen name="home" options={{
                 title: "Home",
@@ -41,15 +42,30 @@ const TabsNavigation = () => {
                 title: "About",
                 tabBarIcon: ({color, size}) => <MaterialCommunityIcons name="ballot-outline" size={size} color={color}/>
             }}/>
-            <Tabs.Screen name="(input)"options={{
-                title: "Input",
+            <Tabs.Screen name="(input)" options={{
+                title: "Forecast",
                 // tabBarIcon: ({color}) => <Ionicons name="card-outline" size={20} color={color}/>
                 tabBarIcon: ({color, size}) => <MaterialCommunityIcons name="file-edit-outline" size={size} color={color}/>
                 
             }}/>
-            <Tabs.Screen name="predict"options={{
+            <Tabs.Screen name="predict" options={{
                 href: null
             }}/>
+            <Tabs.Screen name="chart" options={{
+                href: null
+            }}/>
+            <Tabs.Screen name="analytics" options={{
+                href: null
+            }}/>
+            <Tabs.Screen name="report" options={{
+                href: null
+            }}/>
+            {/* <Tabs.Screen name="predict"options={{
+                title: "Chart",
+                // tabBarIcon: ({color}) => <Ionicons name="card-outline" size={20} color={color}/>
+                tabBarIcon: ({color, size}) => <MaterialCommunityIcons name="file-chart-outline" size={size} color={color}/>
+                
+            }}/> */}
         </Tabs>
     )
 }
